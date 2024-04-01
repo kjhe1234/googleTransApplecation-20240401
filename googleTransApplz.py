@@ -29,7 +29,9 @@ class GoogleTrans(QMainWindow, form_class):
         if korText == "":
             print("공백입력!!")
             QMessageBox.warning(self, "입력오류!", "입력란에 번역할 문장을 넣어 주세요.")
+
         elif reg.match(korText):  # 한글인지 아닌지 여부 확인.(시작 단어가 숫자 또는 영어로 입력시 경고창 출력)
+            # match 대신 search 하면 한글이 아닌거 사용시 에러 발생
             print("한글입력 오류")
             QMessageBox.warning(self, "입력오류!", "한글입력란에는 한글만 넣어주세요.")
 
