@@ -71,4 +71,7 @@ if __name__ == "__main__":
 # pyinstaller 패키지 설치
 # 터미널에서 pyinstaller --onefile googleTransApplz.py  텍스트만 할시
 # 터미널에서 pyinstaller --windowed googleTransApplz.py
+# googleTransApplz.py 이거 대신 해당 파일 이름 작성
 
+# 만든 후에 해당 파이썬프로젝트 폴더안에 dist 폴더 생성 그안에 Qt디자이너
+# 하고 아이콘 이미지 있을시 해당 폴더 복사해서 넣어줘야 함
