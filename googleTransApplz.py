@@ -67,5 +67,8 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 
 
-
+# 윈도우에서 exe로 실행하게 하는법
+# pyinstaller 패키지 설치
+# 터미널에서 pyinstaller --onefile googleTransApplz.py  텍스트만 할시
+# 터미널에서 pyinstaller --windowed googleTransApplz.py
 
